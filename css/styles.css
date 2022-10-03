@@ -1,0 +1,139 @@
+
+#title {
+ background-color:#B270A2;
+ padding:3% 15% 0;
+}
+.align{
+    text-align: center;
+}
+
+.carousel-item {
+    padding:7% 15%;
+}
+#pricing {
+    text-align:center;
+    padding:100px;
+}
+.row {
+    padding:5% 5%;
+}
+.card-header {
+    color:white;
+}
+/*Headings*/
+h1,h2,h3,h4 {
+    font-family: Montesserat; 
+}
+.big-heading {
+    font-family:Sacramento;
+    font-size: 5.5rem;
+    line-height:1.5;
+    color: white;
+}
+h3 {
+    font-weight: bold;
+    padding:3px;
+}
+#edit {
+    padding:3px 4px 0 4px;
+}
+.container-fluid {
+    padding:0;
+}
+.navbar {
+    text-align:center;
+}
+
+.icon {
+    padding-top:10px;
+    color:palevioletred;
+}
+.icon:hover {
+    color:purple;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+    padding-left:50px;
+    
+}
+.navbar-nav {
+    color:white;
+}
+.nav-item {
+    padding:0 12px;
+    color:white;
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+.title-image {
+    transform: rotate(35deg); 
+    position:absolute;
+    left:60%;
+}
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position:static;
+        transform:rotate(0);
+    }
+}
+#features {
+    padding:100px;
+    background-color:white;
+    position:relative;
+    z-index:1;
+}
+#testimonials {
+    padding: 3% 15%;
+    text-align: center;
+    background-color:#B270A2;
+}
+#testimonials-text {
+    color:white;
+   line-height:1.5;
+   padding:3%;
+}
+.testimonial-img {
+    border-radius:100%;
+    margin:10px;
+    width:15%;
+}
+#press {
+    background-color:#B270A2;
+    text-align: center; 
+   
+}
+.press-img {
+   padding-left:30px;
+   padding-bottom:3%;
+   width:15%;
+}
+.foot {
+    background-color:#B270A2;
+}
+#cta {
+    text-align: center;
+    background-color:#B270A2;
+}
+.cta-section {
+    font-size:3rem;
+    padding:5% 30% 0; 
+    color:white;
+}
+#footer {
+    padding:3%;
+    text-align: center;
+}
+.footer-title {
+    padding:10px;
+    font-size:20px;
+}
+.social-icon {
+  margin:20px 10px;
+}
